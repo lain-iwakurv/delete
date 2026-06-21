@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор продуктивности</title>
+    <link rel="stylesheet" href="Calcu.css">
+</head>
+<body>
+
+<div class="container">
+    <label>
+        Работа:
+        <input id="work" type="number">
+    </label>
+
+    <label>
+        Развлечения:
+        <input id="fun" type="number">
+    </label>
+
+    <label>
+        Отдых:
+        <input id="rest" type="number">
+    </label>
+
+    <label>
+        Учёба:
+        <input id="study" type="number">
+    </label>
+
+    <button onclick="calc()">Рассчитать</button>
+
+    <p id="result"></p>
+</div>
+
+<script src="Calcu.js"></script>
+</body>
+</html>
